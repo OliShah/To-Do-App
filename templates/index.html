@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do List</title>
+</head>
+<body>
+    <h1>To-do List</h1>
+
+    <ul>
+        {% for task in tasks %}
+        <li>
+            <strong>ID {{ task.id }}:</strong> {{ task.title }} - {{ task.description }} 
+            [Category: {{ task.category }}] - Status: {{ task.status }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

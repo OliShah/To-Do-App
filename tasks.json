@@ -1,0 +1,14 @@
+[
+    {
+        "id": 123,
+        "description": "Buy milk, eggs and bread",
+        "category": "Shopping",
+        "status": "pending"
+    },
+    {
+        "id": 321,
+        "description": "Buy saf, eggs and basread",
+        "category": "Shopping",
+        "status": "pending"
+    }
+]
